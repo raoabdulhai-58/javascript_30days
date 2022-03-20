@@ -1,0 +1,23 @@
+.keys {
+  background-color: black;
+  color: wheat;
+  width: 80%;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.key {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgreen;
+  margin: 0 5px;
+  padding: 15px;
+  cursor: pointer;
+}
+.playing{
+  background-color: aqua;
+  color: black;
+}
